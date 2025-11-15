@@ -19,6 +19,8 @@ public class SistemPerpustakaan extends javax.swing.JFrame {
         initComponents();
         getData();
         showDataTable();
+        setLocationRelativeTo(null);
+        setTitle("Perpustakaan");
     }
 
     public void getData() {
